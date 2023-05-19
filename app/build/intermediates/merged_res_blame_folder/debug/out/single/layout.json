@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.example.androidev3.app-mergeDebugResources-40:/layout/activity_view_connection.xml",
+        "source": "com.example.androidev3.app-main-43:/layout/activity_view_connection.xml"
+    },
+    {
+        "merged": "com.example.androidev3.app-mergeDebugResources-40:/layout/activity_actions.xml",
+        "source": "com.example.androidev3.app-main-43:/layout/activity_actions.xml"
+    },
+    {
+        "merged": "com.example.androidev3.app-mergeDebugResources-40:/layout/activity_main.xml",
+        "source": "com.example.androidev3.app-main-43:/layout/activity_main.xml"
+    }
+]

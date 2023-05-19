@@ -1,0 +1,134 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.androidev3"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\alexa\Desktop\Android\19-05\Baruotier Android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\alexa\Desktop\Android\19-05\Baruotier Android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.BLUETOOTH" />
+11-->C:\Users\alexa\Desktop\Android\19-05\Baruotier Android\app\src\main\AndroidManifest.xml:5:5-68
+11-->C:\Users\alexa\Desktop\Android\19-05\Baruotier Android\app\src\main\AndroidManifest.xml:5:22-65
+12    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+12-->C:\Users\alexa\Desktop\Android\19-05\Baruotier Android\app\src\main\AndroidManifest.xml:6:5-74
+12-->C:\Users\alexa\Desktop\Android\19-05\Baruotier Android\app\src\main\AndroidManifest.xml:6:22-71
+13    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+13-->C:\Users\alexa\Desktop\Android\19-05\Baruotier Android\app\src\main\AndroidManifest.xml:7:5-76
+13-->C:\Users\alexa\Desktop\Android\19-05\Baruotier Android\app\src\main\AndroidManifest.xml:7:22-73
+14
+15    <permission
+15-->[androidx.core:core:1.9.0] C:\Users\alexa\.gradle\caches\transforms-3\6da50bc281d9b7eaf1752636e72c16a0\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+16        android:name="com.example.androidev3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+16-->[androidx.core:core:1.9.0] C:\Users\alexa\.gradle\caches\transforms-3\6da50bc281d9b7eaf1752636e72c16a0\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+17        android:protectionLevel="signature" />
+17-->[androidx.core:core:1.9.0] C:\Users\alexa\.gradle\caches\transforms-3\6da50bc281d9b7eaf1752636e72c16a0\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+18
+19    <uses-permission android:name="com.example.androidev3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+19-->[androidx.core:core:1.9.0] C:\Users\alexa\.gradle\caches\transforms-3\6da50bc281d9b7eaf1752636e72c16a0\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+19-->[androidx.core:core:1.9.0] C:\Users\alexa\.gradle\caches\transforms-3\6da50bc281d9b7eaf1752636e72c16a0\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+20
+21    <application
+21-->C:\Users\alexa\Desktop\Android\19-05\Baruotier Android\app\src\main\AndroidManifest.xml:9:5-39:19
+22        android:allowBackup="true"
+22-->C:\Users\alexa\Desktop\Android\19-05\Baruotier Android\app\src\main\AndroidManifest.xml:10:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.9.0] C:\Users\alexa\.gradle\caches\transforms-3\6da50bc281d9b7eaf1752636e72c16a0\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+24        android:dataExtractionRules="@xml/data_extraction_rules"
+24-->C:\Users\alexa\Desktop\Android\19-05\Baruotier Android\app\src\main\AndroidManifest.xml:11:9-65
+25        android:debuggable="true"
+26        android:fullBackupContent="@xml/backup_rules"
+26-->C:\Users\alexa\Desktop\Android\19-05\Baruotier Android\app\src\main\AndroidManifest.xml:12:9-54
+27        android:icon="@mipmap/ic_launcher"
+27-->C:\Users\alexa\Desktop\Android\19-05\Baruotier Android\app\src\main\AndroidManifest.xml:13:9-43
+28        android:label="@string/app_name"
+28-->C:\Users\alexa\Desktop\Android\19-05\Baruotier Android\app\src\main\AndroidManifest.xml:14:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->C:\Users\alexa\Desktop\Android\19-05\Baruotier Android\app\src\main\AndroidManifest.xml:15:9-54
+30        android:supportsRtl="true"
+30-->C:\Users\alexa\Desktop\Android\19-05\Baruotier Android\app\src\main\AndroidManifest.xml:16:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.AndroidEV3" >
+32-->C:\Users\alexa\Desktop\Android\19-05\Baruotier Android\app\src\main\AndroidManifest.xml:17:9-48
+33        <activity
+33-->C:\Users\alexa\Desktop\Android\19-05\Baruotier Android\app\src\main\AndroidManifest.xml:19:9-23:55
+34            android:name="com.example.androidev3.Actions"
+34-->C:\Users\alexa\Desktop\Android\19-05\Baruotier Android\app\src\main\AndroidManifest.xml:20:13-36
+35            android:exported="false"
+35-->C:\Users\alexa\Desktop\Android\19-05\Baruotier Android\app\src\main\AndroidManifest.xml:21:13-37
+36            android:label="@string/title_activity_actions"
+36-->C:\Users\alexa\Desktop\Android\19-05\Baruotier Android\app\src\main\AndroidManifest.xml:22:13-59
+37            android:theme="@style/Theme.AndroidEV3" />
+37-->C:\Users\alexa\Desktop\Android\19-05\Baruotier Android\app\src\main\AndroidManifest.xml:23:13-52
+38        <activity
+38-->C:\Users\alexa\Desktop\Android\19-05\Baruotier Android\app\src\main\AndroidManifest.xml:24:9-28:55
+39            android:name="com.example.androidev3.ViewConnection"
+39-->C:\Users\alexa\Desktop\Android\19-05\Baruotier Android\app\src\main\AndroidManifest.xml:25:13-43
+40            android:exported="false"
+40-->C:\Users\alexa\Desktop\Android\19-05\Baruotier Android\app\src\main\AndroidManifest.xml:26:13-37
+41            android:label="@string/title_activity_view_connection"
+41-->C:\Users\alexa\Desktop\Android\19-05\Baruotier Android\app\src\main\AndroidManifest.xml:27:13-67
+42            android:theme="@style/Theme.AndroidEV3" />
+42-->C:\Users\alexa\Desktop\Android\19-05\Baruotier Android\app\src\main\AndroidManifest.xml:28:13-52
+43        <activity
+43-->C:\Users\alexa\Desktop\Android\19-05\Baruotier Android\app\src\main\AndroidManifest.xml:29:9-38:20
+44            android:name="com.example.androidev3.MainActivity"
+44-->C:\Users\alexa\Desktop\Android\19-05\Baruotier Android\app\src\main\AndroidManifest.xml:30:13-41
+45            android:exported="true"
+45-->C:\Users\alexa\Desktop\Android\19-05\Baruotier Android\app\src\main\AndroidManifest.xml:31:13-36
+46            android:label="@string/title_activity_main"
+46-->C:\Users\alexa\Desktop\Android\19-05\Baruotier Android\app\src\main\AndroidManifest.xml:32:13-56
+47            android:theme="@style/Theme.AndroidEV3" >
+47-->C:\Users\alexa\Desktop\Android\19-05\Baruotier Android\app\src\main\AndroidManifest.xml:33:13-52
+48            <intent-filter>
+48-->C:\Users\alexa\Desktop\Android\19-05\Baruotier Android\app\src\main\AndroidManifest.xml:34:13-37:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->C:\Users\alexa\Desktop\Android\19-05\Baruotier Android\app\src\main\AndroidManifest.xml:35:17-69
+49-->C:\Users\alexa\Desktop\Android\19-05\Baruotier Android\app\src\main\AndroidManifest.xml:35:25-66
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->C:\Users\alexa\Desktop\Android\19-05\Baruotier Android\app\src\main\AndroidManifest.xml:36:17-77
+51-->C:\Users\alexa\Desktop\Android\19-05\Baruotier Android\app\src\main\AndroidManifest.xml:36:27-74
+52            </intent-filter>
+53        </activity>
+54
+55        <uses-library
+55-->[androidx.window:window:1.0.0] C:\Users\alexa\.gradle\caches\transforms-3\e098c8544ccfbe97cf4b6d058defe7e5\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+56            android:name="androidx.window.extensions"
+56-->[androidx.window:window:1.0.0] C:\Users\alexa\.gradle\caches\transforms-3\e098c8544ccfbe97cf4b6d058defe7e5\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+57            android:required="false" />
+57-->[androidx.window:window:1.0.0] C:\Users\alexa\.gradle\caches\transforms-3\e098c8544ccfbe97cf4b6d058defe7e5\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+58        <uses-library
+58-->[androidx.window:window:1.0.0] C:\Users\alexa\.gradle\caches\transforms-3\e098c8544ccfbe97cf4b6d058defe7e5\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+59            android:name="androidx.window.sidecar"
+59-->[androidx.window:window:1.0.0] C:\Users\alexa\.gradle\caches\transforms-3\e098c8544ccfbe97cf4b6d058defe7e5\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+60            android:required="false" />
+60-->[androidx.window:window:1.0.0] C:\Users\alexa\.gradle\caches\transforms-3\e098c8544ccfbe97cf4b6d058defe7e5\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+61
+62        <provider
+62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\alexa\.gradle\caches\transforms-3\12bf843f49fcd2cc5f5a67aaad0839af\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+63            android:name="androidx.startup.InitializationProvider"
+63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\alexa\.gradle\caches\transforms-3\12bf843f49fcd2cc5f5a67aaad0839af\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+64            android:authorities="com.example.androidev3.androidx-startup"
+64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\alexa\.gradle\caches\transforms-3\12bf843f49fcd2cc5f5a67aaad0839af\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+65            android:exported="false" >
+65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\alexa\.gradle\caches\transforms-3\12bf843f49fcd2cc5f5a67aaad0839af\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+66            <meta-data
+66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\alexa\.gradle\caches\transforms-3\12bf843f49fcd2cc5f5a67aaad0839af\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+67                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\alexa\.gradle\caches\transforms-3\12bf843f49fcd2cc5f5a67aaad0839af\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+68                android:value="androidx.startup" />
+68-->[androidx.emoji2:emoji2:1.2.0] C:\Users\alexa\.gradle\caches\transforms-3\12bf843f49fcd2cc5f5a67aaad0839af\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+69            <meta-data
+69-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\alexa\.gradle\caches\transforms-3\00e175bcebfedc6c7a17ca3add13a529\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+70                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+70-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\alexa\.gradle\caches\transforms-3\00e175bcebfedc6c7a17ca3add13a529\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+71                android:value="androidx.startup" />
+71-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\alexa\.gradle\caches\transforms-3\00e175bcebfedc6c7a17ca3add13a529\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+72        </provider>
+73    </application>
+74
+75</manifest>
